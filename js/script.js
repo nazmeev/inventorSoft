@@ -29,6 +29,7 @@ submitBtn.addEventListener('click', (event) => {
     const information = document.querySelector('.info');
 
     information.firstElementChild.innerText = ""
+    information.firstElementChild.nextElementSibling.children[0].innerText = '';
 
     const textArea = document.querySelectorAll('.input-form__text-area');
     let gottenArray = textArea[0].value.trim().split(',');
@@ -36,5 +37,6 @@ submitBtn.addEventListener('click', (event) => {
 
     validateTextArea(textArea[0].value) ? (textArea[1].value = getArraySorted(gottenArray)
         , information.firstElementChild.nextElementSibling.children[0].innerText = gottenArray.length)
-        : information.firstElementChild.innerText = 'Invalid input array (include no number element)';
+        : (information.firstElementChild.innerText = 'Invalid input array( include no number element(s) )'
+            , (textArea[1].value = ''));
 })
