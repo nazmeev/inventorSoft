@@ -32,8 +32,8 @@ submitBtn.addEventListener('click', (event) => {
     information.firstElementChild.nextElementSibling.children[0].innerText = '';
 
     const textArea = document.querySelectorAll('.input-form__text-area');
-    let gottenArray = textArea[0].value.trim().split(',');
-
+    let gottenArray = [];
+    textArea[0].value.trim().split(',').map(item => gottenArray.push(parseInt(item)));
 
     validateTextArea(textArea[0].value) ? (textArea[1].value = getArraySorted(gottenArray)
         , information.firstElementChild.nextElementSibling.children[0].innerText = gottenArray.length)
