@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Counting sort</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <h1 class="title">Counting sort algorithm</h1>
+        <form method="get" class="input-form">
+            <label for="entered-array">Input array:</label>
+            <textarea class="input-form__text-area" name="array" id="entered-array" rows="5"></textarea>
+            <button class="input-form__btn" type="submit">sort</button>
+
+            <label for="output-array">Sorted array:</label>
+            <textarea readonly class="input-form__text-area input-form__text-area--readonly" id="output-array"
+                rows="5"></textarea>
+        </form>
+        <div class="info">
+            <span></span>
+            <p>Number of elements (n): <span class="elements-numb"></span></p>
+            <p>Complexity O(n+k): log(n+k)</p>
+        </div>
+    </div>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
