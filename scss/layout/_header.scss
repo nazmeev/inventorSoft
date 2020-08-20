@@ -1,0 +1,140 @@
+.header {
+  height: 100vh;
+  background: url("./assets/images/header-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  text-align: center;
+  color: white;
+  font-family: "Gotham";
+  position: relative;
+
+  &__nav {
+    height: 85px;
+    position: fixed;
+
+    @include laptop {
+      height: auto;
+      padding-top: 40px;
+      padding-bottom: 10px;
+    }
+
+    @include desktop {
+      height: auto;
+      padding-top: 40px;
+      padding-bottom: 10px;
+    }
+  }
+
+  &__burger {
+    margin-right: 10vw;
+    margin-top: 30px;
+
+    @include laptop {
+      display: none;
+    }
+
+    @include desktop {
+      display: none;
+    }
+  }
+
+  &__logo {
+    &:hover {
+      filter: invert(42%) sepia(71%) saturate(464%) hue-rotate(118deg)
+        brightness(103%) contrast(94%);
+    }
+  }
+
+  &__title {
+    margin: 30vh auto 0 auto;
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    width: 90vw;
+
+    @include tablet {
+      margin: 35vh auto 0 auto;
+    }
+
+    @include laptop {
+      width: unset;
+      margin-top: 342px;
+      font-size: 36px;
+      letter-spacing: 5.4px;
+    }
+
+    @include desktop {
+      width: unset;
+      margin-top: 342px;
+      font-size: 36px;
+      letter-spacing: 5.4px;
+    }
+  }
+
+  &__subtitle {
+    font-size: 16px;
+    letter-spacing: 2.4px;
+    margin-top: 5vh;
+    padding: 0 15px 0 15px;
+
+    @include laptop {
+      margin-top: 13px;
+    }
+
+    @include desktop {
+      margin-top: 13px;
+    }
+  }
+
+  &__btn {
+    margin: 5vh auto;
+
+    @include laptop {
+      margin: 26px auto;
+    }
+
+    @include desktop {
+      margin: 26px auto;
+    }
+  }
+
+  &__scrol {
+    width: 30px;
+    height: 50px;
+    border: 1px solid white;
+    border-radius: 25px;
+    @include aboluteCenterLeft;
+    bottom: 100px;
+
+    &:hover {
+      border: 1px solid $main--green;
+
+      &::before {
+        background-color: $main--green;
+      }
+    }
+
+    &::before {
+      content: "";
+      @include aboluteCenterLeft;
+      top: 5px;
+      width: 6px;
+      height: 6px;
+      background-color: white;
+      display: block;
+      border-radius: 50%;
+      animation: scrolDown 1.5s ease infinite;
+    }
+  }
+}
+
+@keyframes scrolDown {
+  from {
+    top: 5px;
+  }
+  to {
+    top: 43px;
+    opacity: 0;
+  }
+}

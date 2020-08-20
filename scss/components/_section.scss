@@ -1,0 +1,64 @@
+.section {
+  width: 100%;
+
+  &__description {
+    width: 90vw;
+    margin: 15vh auto;
+    text-align: center;
+
+    @include laptop {
+      width: 428px;
+      margin: 0;
+      margin-top: 113px;
+      text-align: left;
+    }
+
+    @include desktop {
+      width: 428px;
+      margin: 0;
+      margin-top: 113px;
+      text-align: left;
+    }
+  }
+
+  &__title {
+    font-family: "Gotham";
+    font-weight: 700;
+    font-size: 18px;
+    color: $main--green;
+    text-transform: uppercase;
+  }
+
+  &__subtitle {
+    font-family: "GothamBook";
+    margin-top: 45px;
+    font-size: 12px;
+    line-height: 1.5;
+    letter-spacing: 1.8px;
+  }
+
+  &__btn {
+    margin: 45px auto;
+
+    @include laptop {
+      margin: 45px 0;
+    }
+
+    @include desktop {
+      margin: 45px 0;
+    }
+
+    &:hover {
+      background-color: $main--grey;
+      border: 1px solid $main--green;
+    }
+  }
+
+  &--grey {
+    background-color: $main--grey;
+  }
+
+  &--white {
+    background-color: #fff;
+  }
+}

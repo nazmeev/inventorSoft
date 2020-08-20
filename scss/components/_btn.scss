@@ -1,0 +1,27 @@
+.btn {
+  width: 90vw;
+  height: 49px;
+  background-color: $main--green;
+  text-transform: uppercase;
+  @include flexCenter;
+  cursor: pointer;
+  color: white;
+  font-family: "Gotham";
+
+  &:hover {
+    background-color: white;
+    color: $main--green;
+  }
+
+  @include tablet {
+    width: 50vw;
+  }
+
+  @include laptop {
+    width: 166px;
+  }
+
+  @include desktop {
+    width: 166px;
+  }
+}
