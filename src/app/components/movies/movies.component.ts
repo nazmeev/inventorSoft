@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import { MovieService } from '../../config/movie.service';
-import { from } from 'rxjs';
 
 @Component({
   selector: 'app-movies',
