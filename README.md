@@ -11,11 +11,15 @@ git clone https://github.com/petyastoleru/inventorSoft.git
 cd inventorSoft
 ```
 
+---
+
 ### Switch to homework branch
 
 ```
 git checkout angular_hw
 ```
+
+---
 
 ## Install npm packages
 
