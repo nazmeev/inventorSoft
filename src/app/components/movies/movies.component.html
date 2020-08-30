@@ -1,0 +1,9 @@
+<section class="movie">
+
+  <ul class="movie__list ">
+    <li class="movie__item" *ngFor="let movieItem of movies">
+      <app-movie-item [movie]="movieItem" (addFavourite)="addFavourite()"></app-movie-item>
+    </li>
+  </ul>
+
+</section>

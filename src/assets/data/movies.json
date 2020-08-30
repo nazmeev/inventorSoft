@@ -1,0 +1,81 @@
+[{
+    "id": 1,
+    "name": "Dragonheart: Vengeance",
+    "description": "Lukas, a young farmer whose family is killed by savage raiders in the countryside, sets out on an epic quest for revenge, forming an unlikely trio with a majestic dragon and a swashbuckling, sword-fighting mercenary, Darius.",
+    "price": 30,
+    "image": "/assets/images/Dragonheart-Vengeance.jpg",
+    "isFavourite": false
+  },
+  {
+    "id": 2,
+    "name": "All the Bright Places",
+    "description": "All the Bright Places by Jennifer Niven is a heartbreaking book about mental illness and its powerful effects on the person suffering from it, and the people around them. Finch and Violet meet on top of the bell tower at school. They both consider jumping off, but save one another from doing so.",
+    "price": 20,
+    "image": "/assets/images/All_the_bright_places.jpg",
+    "isFavourite": false
+  },
+  {
+    "id": 3,
+    "name": "Psycho",
+    "description": "Psycho is a 2020 Indian Tamil-language psychological thriller film written and directed by Mysskin. The film was produced by Arun Mozhi Manickam under Double Meaning Production. The film stars Udhayanidhi Stalin, Nithya Menen, Aditi Rao Hydari, and debutant Rajkumar Pitchumani, while Renuka, Singampuli, Ram, Aadukalam Naren, and Shaji Chen play supporting roles. Ilaiyaraaja composed the soundtrack of the film, with cinematography by Tanvir Mir and editing by N. Arunkumar. Production began in September 2018, and the film released worldwide on 24 January 2020.",
+    "price": 100,
+    "image": "/assets/images/Psycho.jpg",
+    "isFavourite": false
+  },
+  {
+    "id": 4,
+    "name": "A Whisker Away",
+    "description": "A Whisker Away, known in Japan as Nakitai Watashi wa Neko wo Kaburu (泣きたい私は猫をかぶる, lit. 'anting to Cry, I Pretend to Be a Cat'), is a 2020 Japanese animated film produced by Studio Colorido, Toho Animation and Twin Engine. Directed by Junichi Sato and Tomotaka Shibayama, the film was released on June 18, 2020 on Netflix in Japanese.",
+    "price": 40,
+    "image": "/assets/images/a_whisker-away.png",
+    "isFavourite": false
+  },
+  {
+    "id": 5,
+    "name": "Sniper: Assassin's End",
+    "description": "Sniper: Assassin's End is a 2020 American action film directed by Kaare Andrews and starring Chad Michael Collins, Tom Berenger and Sayaka Akimoto. The film is the eighth installment of the Sniper film series and a sequel to Sniper: Ultimate Kill (2017). The film was released to Blu-ray, DVD and digital platforms on June 16, 2020.",
+    "price": 10,
+    "image": "/assets/images/Sniper.jpg",
+    "isFavourite": false
+  },
+  {
+    "id": 6,
+    "name": "18 Presents",
+    "description": "18 Presents (Italian: 18 regali) is a 2020 Italian drama film written and directed by Francesco Amato. The film stars Vittoria Puccini, Benedetta Porcaroli and Edoardo Leo in the lead roles. The film is based on the true story about an Italian woman Elisa Gritto who was known for planning and allocating 17 years of birthday gifts for her daughter Anna before her death in September 2017 due to a terminal breast cancer. The woman was diagnosed with cancer on the same day after giving birth to her baby daughter in August 2016 at the age of 40. The film had its theatrical release on 2 January 2020 and received positive reviews for its emotional screenplay. Elisa's husband Alessio Vincenzotto was also credited for his story about his wife. It was also streamed via Netflix on 8 May 2020 coinciding with the Mothers' Day.",
+    "price": 15,
+    "image": "/assets/images/18.jpg",
+    "isFavourite": false
+  },
+  {
+    "id": 7,
+    "name": "Fatal Affair",
+    "description": "Fatal Affair is a 2020 American psychological thriller film directed by Peter Sullivan, who co-wrote the screenplay with Rasheeda Garner. It stars Nia Long, Omar Epps, Stephen Bishop and KJ Smith.",
+    "price": 25,
+    "image": "/assets/images/fatal-affair.png",
+    "isFavourite": false
+  },
+  {
+    "id": 8,
+    "name": "Lost Bullet",
+    "description": "Lost Bullet (French: Balle perdue) is a 2020 French action thriller film directed by Guillaume Pierret, written by Guillaume Pierret, Alban Lenoir and Kamel Guemra and starring Alban Lenoir, Nicolas Duvauchelle and Ramzy Bedia.",
+    "price": 12,
+    "image": "/assets/images/Balle_perdue.jpg",
+    "isFavourite": false
+  },
+  {
+    "id": 9,
+    "name": "The Occupant",
+    "description": "The Occupant (Spanish: Hogar) is a Spanish 2020 thriller directed by David Pastor and Àlex Pastor, and written by David Pastor and Àlex Pastor. It was released on March 25, 2020 on Netflix in the US, and via the internet in other countries.",
+    "price": 10,
+    "image": "/assets/images/The_Occupant_poster.jpg",
+    "isFavourite": false
+  },
+  {
+    "id": 10,
+    "name": "What Men Want",
+    "description": "What Men Want is a 2019 American romantic comedy film directed by Adam Shankman and starring Taraji P. Henson, Aldis Hodge, Josh Brener, Erykah Badu, Richard Roundtree and Tracy Morgan. The film is a loose remake of the 2000 film What Women Want. The plot follows a woman who – after drinking a potent concoction given by a shaman – gains the ability to hear men's inner thoughts. The screenplay was written by Jas Waters and Tina Gordon Chism.",
+    "price": 10,
+    "image": "/assets/images/men_want.jpg",
+    "isFavourite": false
+  }
+]

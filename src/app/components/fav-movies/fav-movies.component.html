@@ -1,0 +1,17 @@
+<section class="movie fav-movie">
+  <ul class="movie__list fav-movie__list">
+    <ng-container *ngFor="let movieItem of movies">
+
+      <li class="movie__item" *ngIf="movieItem.isFavourite">
+        <app-movie-item [movie]="movieItem" (addFavourite)="addFavourite()"> </app-movie-item>
+      </li>
+
+    </ng-container>
+  </ul>
+
+  <p class="fav-movie__totalPrice" *ngIf="favCost !== 0">Total cost: <span class="fav-movie__totalPrice--green">
+      ${{ favCost }} </span></p>
+  <button class="fav-movie__btn btn" (click)="onBtnClick()" *ngIf="favCost !== 0">Clear List</button>
+
+  <p class="fav-movie__empty" *ngIf="favCost === 0"> Your favorite list is empty :(</p>
+</section>

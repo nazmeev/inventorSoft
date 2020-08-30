@@ -1,0 +1,27 @@
+.fav-movie {
+  min-height: 100vh;
+  height: auto;
+
+  &__btn {
+    margin: 20px auto 0 auto;
+  }
+
+  &__totalPrice {
+    width: fit-content;
+    font-size: 20px;
+    margin: 20px auto;
+    color: #e0dfdc;
+
+    &--green {
+      color: #85bb65;
+    }
+  }
+
+  &__empty {
+    width: fit-content;
+    margin: 20px auto;
+    color: #e0dfdc;
+    font-size: 20px;
+    font-family: "Josefin Sans", sans-serif;
+  }
+}

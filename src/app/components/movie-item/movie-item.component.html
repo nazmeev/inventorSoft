@@ -1,0 +1,11 @@
+<div class="movieItem">
+  <div class="movieItem__poster"><img src="{{movie.image}}" alt="{{movie.name}}_poster"></div>
+  <div class="movieItem__description">
+    <h2 class="movieItem__title">{{movie.name}}</h2>
+    <p class="movieItem__about">{{movie.description}}</p>
+    <div class="movieItem__wrapper">
+      <span class="movieItem__price">${{movie.price}}</span>
+      <div class="btn movieItem__btn" [class.favorite]="movie.isFavourite" (click)="onClick()">{{btnString}}</div>
+    </div>
+  </div>
+</div>
